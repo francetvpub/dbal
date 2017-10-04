@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/dbal",
+    "name": "francetvpub/dbal",
     "type": "library",
     "description": "Database Abstraction Layer",
     "keywords": ["dbal", "database", "persistence", "queryobject"],
@@ -40,5 +40,8 @@
     },
     "archive": {
         "exclude": ["!vendor", "tests", "*phpunit.xml", ".travis.yml", "build.xml", "build.properties", "composer.phar"]
+    },
+    "replace" : {
+        "doctrine/dbal": "*"
     }
 }
